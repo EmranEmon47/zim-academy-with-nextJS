@@ -5,6 +5,8 @@ import Footer from '../Shared/Footer/Footer'
 import EvenSection from './EventSection/EvenSection'
 import Book from './Book/Book'
 import Blog from './Blog/Blog'
+import FAQSection from './FAQ/FaqSection'
+
 
 export default function Home() {
   return (
@@ -14,7 +16,8 @@ export default function Home() {
         <EvenSection/>
         <Book/>
         <Blog/>
-        {/* <Footer/> */}
+       <FAQSection/>
+        <Footer/>
     </div>
   )
 }
