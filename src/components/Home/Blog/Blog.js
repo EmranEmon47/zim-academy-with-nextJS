@@ -5,7 +5,7 @@ import blog1 from "../../../Assets/Image/blog1.jpg";
 
 export default function Blog() {
   return (
-    <section className="container w-full min-h-screen mx-auto mt-8 overflow-hidden">
+    <section className="container relative w-full min-h-screen mx-auto mt-8 overflow-hidden -top-36">
       <div className="px-8 py-12 bg-white rounded-2xl">
         <div className="flex flex-row items-center justify-between">
           <div className="flex flex-col items-start justify-center gap-2">

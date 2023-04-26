@@ -49,10 +49,10 @@ const FAQSection = () => {
   }
 
   return (
-    <div className="container w-full min-h-screen mx-auto my-12 overflow-hidden">
+    <div className="container relative w-full min-h-screen mx-auto my-12 overflow-hidden -top-20">
       <div className='flex flex-col items-center justify-center py-8 mx-auto'>
         <Image src={FAQ} className='w-64' alt="faq"  />
-      <h2 className="mb-4 text-2xl font-bold">Frequently Asked Questions</h2>
+      <h2 className="pt-12 pb-4 text-2xl font-bold">Frequently Asked Questions</h2>
       <p className='text-lg font-medium'>Learn quickly about ZIM and the quality products at ZIM</p>
       </div>
       <div className="space-y-4">

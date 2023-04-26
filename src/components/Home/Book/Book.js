@@ -5,7 +5,7 @@ import book1 from "../../../Assets/Image/book1.png";
 
 export default function Book() {
   return (
-    <section className="container relative min-h-screen mx-auto">
+    <section className="container relative min-h-screen mx-auto -top-36">
       <div className="px-8 py-12 bg-white rounded-2xl">
         <div className="flex flex-row items-center justify-between">
           <div className="flex flex-col items-start justify-center gap-2">
