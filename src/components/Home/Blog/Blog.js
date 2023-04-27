@@ -5,25 +5,25 @@ import blog1 from "../../../Assets/Image/blog1.jpg";
 
 export default function Blog() {
   return (
-    <section className="container relative w-full min-h-screen mx-auto mt-8 overflow-hidden -top-36">
+    <section className="container relative w-full min-h-screen mx-auto mt-8 overflow-hidden lg:-top-36">
       <div className="px-8 py-12 bg-white rounded-2xl">
         <div className="flex flex-row items-center justify-between">
-          <div className="flex flex-col items-start justify-center gap-2">
-            <h3 className="text-2xl font-semibold ">Book</h3>
+          <div className="flex flex-col items-start justify-center gap-2 py-2">
+            <h3 className="text-2xl font-semibold ">Blog</h3>
             <p className="text-lg font-normal">
               Resources for IELTS and TOEIC test preparation according to the
               focus of the test knowledge
             </p>
           </div>
           <div>
-            <button className="px-6 py-2 text-lg border rounded-full font-base hover:bg-slate-100 border-slate-200">
-              View all books
+            <button className="hidden px-6 py-2 text-lg border rounded-full md:block font-base hover:bg-slate-100 border-slate-200">
+              View all Blogs
             </button>
           </div>
         </div>
 
         {/* post section */}
-        <div className="grid content-start grid-cols-2 gap-4 pt-8 justify-items-start">
+        <div className="grid grid-cols-1 lg:grid lg:content-start lg:grid-cols-2 lg:gap-4 lg:pt-8 lg:justify-items-start">
           <div className="flex flex-col items-start justify-start gap-4 px-4 py-4 border hover:bg-slate-100 border-slate-200 rounded-2xl">
             <Image src={blogHero} className="w-full" alt="book" />
             <div className="flex flex-row items-center justify-between ">

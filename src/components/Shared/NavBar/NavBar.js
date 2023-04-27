@@ -12,14 +12,14 @@ export default function NavBar() {
         <div className='w-[150px]'>
           <Image src={logo} alt="" srcset="" />
         </div>
-        <div className='flex items-center justify-center invisible gap-x-8 lg:visible'>
-          <li className='text-base font-normal list-none font'>Introduce</li>
-          <li className='text-base font-normal list-none'>Course</li>
-          <li className='text-base font-normal list-none'>Books</li>
-          <li className='text-base font-normal list-none'>Posts</li>
-          <li className='text-base font-normal list-none'>Exams and mock exams</li>
-          <li className='text-base font-normal list-none'>Forum</li>
-          <li className='text-base font-normal list-none'>IELTS Correct</li>
+        <div className='flex items-center justify-center gap-x-8 '>
+          <li className='hidden text-base font-normal list-none md:block font'>Introduce</li>
+          <li className='hidden text-base font-normal list-none md:block'>Course</li>
+          <li className='hidden text-base font-normal list-none md:block'>Books</li>
+          <li className='hidden text-base font-normal list-none md:block'>Posts</li>
+          <li className='hidden text-base font-normal list-none md:block'>Exams and mock exams</li>
+          <li className='hidden text-base font-normal list-none md:block'>Forum</li>
+          <li className='hidden text-base font-normal list-none md:block '>IELTS Correct</li>
         </div>
       </div>
     </div>

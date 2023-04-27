@@ -7,7 +7,7 @@ import logo2 from '../../../Assets/Image/footerLogo.png';
 export default function Footer() {
   return (
     <div className=' py-16  bg-[#28282d]'>
-      <div className='container flex flex-row items-start justify-between gap-8 mx-auto text-white'>
+      <div className='container flex flex-col items-start justify-between gap-8 px-4 mx-auto text-white lg:flex-row'>
         <div>
           <Image src={logo} className='w-[150px] bg-white py-2 px-2' alt="" />
         </div>

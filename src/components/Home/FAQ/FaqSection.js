@@ -53,7 +53,7 @@ const FAQSection = () => {
       <div className='flex flex-col items-center justify-center py-8 mx-auto'>
         <Image src={FAQ} className='w-64' alt="faq"  />
       <h2 className="pt-12 pb-4 text-2xl font-bold">Frequently Asked Questions</h2>
-      <p className='text-lg font-medium'>Learn quickly about ZIM and the quality products at ZIM</p>
+      <p className='text-lg font-medium text-center'>Learn quickly about ZIM and the quality products at ZIM</p>
       </div>
       <div className="space-y-4">
         {questions.map((q, index) => (
