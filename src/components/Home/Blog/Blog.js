@@ -26,7 +26,7 @@ export default function Blog() {
         <div className="grid grid-cols-1 lg:grid lg:content-start lg:grid-cols-2 lg:gap-4 lg:pt-8 lg:justify-items-start">
           <div className="flex flex-col items-start justify-start gap-4 px-4 py-4 border hover:bg-slate-100 border-slate-200 rounded-2xl">
             <Image src={blogHero} className="w-full" alt="book" />
-            <div className="flex flex-row items-center justify-between ">
+            <div className="flex flex-row items-center justify-between gap-x-24 lg:gap-x-96 ">
               <h5 className="text-xs text-red-500 uppercase">
                 English English
               </h5>
@@ -43,72 +43,69 @@ export default function Blog() {
               an advanced form of work, causing many difficulties for students
               in the process of studying and taking exams.
             </h5>
-            <p className="mt-auto text-sm">Ebook</p>
+            <p className="mt-auto text-sm">Mac Thi Nguyet Minh</p>
           </div>
 
           <div className="flex flex-col gap-4">
-            <div className="flex flex-row items-start justify-start gap-4 px-4 py-4 border hover:bg-cyan-100 gap-y-4 border-slate-200 rounded-2xl">
-              <Image src={blog1} className="w-1/2" alt="book" />
-             <div className="flex flex-col items-start justify-center">
-             <div className="flex flex-row items-center justify-between">
-                <h5 className="text-xs text-red-500 uppercase">
-                  English English
-                </h5>
-                <h5 className="text-xs uppercase text-slate-400">
-                  April 25, 2023
-                </h5>
-              </div>
-              <div className="flex flex-col items-start justify-start">
+            <div className="flex flex-col items-center justify-center gap-4 px-4 py-4 border lg:flex-row hover:bg-cyan-100 gap-y-4 border-slate-200 rounded-2xl">
+              <Image src={blog1} className="w-full lg:w-1/2" alt="book" />
+              <div className="flex flex-col items-start justify-between gap-4">
+                <div className="flex flex-row items-center justify-between gap-x-24">
+                  <h5 className="text-xs text-red-500 uppercase">
+                    English English
+                  </h5>
+                  <h5 className="ml-auto text-xs uppercase text-slate-400">
+                    April 25, 2023
+                  </h5>
+                </div>
+
                 <h3 className="font-semibold text-medium">
                   Format for completing the National High School English passage
                   for students
                 </h3>
 
-                <p className="mb-auto text-sm">Print book</p>
+                <p className="mb-auto text-sm">Mac Thi Nguyet Minh</p>
               </div>
-             </div>
             </div>
-            <div className="flex flex-row items-start justify-start gap-4 px-4 py-4 border hover:bg-cyan-100 gap-y-4 border-slate-200 rounded-2xl">
-              <Image src={blog1} className="w-1/2" alt="book" />
-             <div className="flex flex-col items-start justify-center">
-             <div className="flex flex-row items-center justify-between">
-                <h5 className="text-xs text-red-500 uppercase">
-                  English English
-                </h5>
-                <h5 className="text-xs uppercase text-slate-400">
-                  April 25, 2023
-                </h5>
-              </div>
-              <div className="flex flex-col items-start justify-start">
+            <div className="flex flex-col items-center justify-center gap-4 px-4 py-4 border lg:flex-row hover:bg-cyan-100 gap-y-4 border-slate-200 rounded-2xl">
+              <Image src={blog1} className="w-full lg:w-1/2" alt="book" />
+              <div className="flex flex-col items-start justify-between gap-4">
+                <div className="flex flex-row items-center justify-between gap-x-24">
+                  <h5 className="text-xs text-red-500 uppercase">
+                    English English
+                  </h5>
+                  <h5 className="ml-auto text-xs uppercase text-slate-400">
+                    April 25, 2023
+                  </h5>
+                </div>
+
                 <h3 className="font-semibold text-medium">
                   Format for completing the National High School English passage
                   for students
                 </h3>
 
-                <p className="mb-auto text-sm">Print book</p>
+                <p className="mb-auto text-sm">Mac Thi Nguyet Minh</p>
               </div>
-             </div>
             </div>
-            <div className="flex flex-row items-start justify-start gap-4 px-4 py-4 border hover:bg-cyan-100 gap-y-4 border-slate-200 rounded-2xl">
-              <Image src={blog1} className="w-1/2" alt="book" />
-             <div className="flex flex-col items-start justify-center">
-             <div className="flex flex-row items-center justify-between">
-                <h5 className="text-xs text-red-500 uppercase">
-                  English English
-                </h5>
-                <h5 className="text-xs uppercase text-slate-400">
-                  April 25, 2023
-                </h5>
-              </div>
-              <div className="flex flex-col items-start justify-start">
+            <div className="flex flex-col items-center justify-center gap-4 px-4 py-4 border lg:flex-row hover:bg-cyan-100 gap-y-4 border-slate-200 rounded-2xl">
+              <Image src={blog1} className="w-full lg:w-1/2" alt="book" />
+              <div className="flex flex-col items-start justify-between gap-4">
+                <div className="flex flex-row items-center justify-between gap-x-24">
+                  <h5 className="text-xs text-red-500 uppercase">
+                    English English
+                  </h5>
+                  <h5 className="ml-auto text-xs uppercase text-slate-400">
+                    April 25, 2023
+                  </h5>
+                </div>
+
                 <h3 className="font-semibold text-medium">
                   Format for completing the National High School English passage
                   for students
                 </h3>
 
-                <p className="mb-auto text-sm">Print book</p>
+                <p className="mb-auto text-sm">Mac Thi Nguyet Minh</p>
               </div>
-             </div>
             </div>
           </div>
         </div>
