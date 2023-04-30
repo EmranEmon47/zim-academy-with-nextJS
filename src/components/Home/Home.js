@@ -6,6 +6,7 @@ import EvenSection from './EventSection/EvenSection'
 import Book from './Book/Book'
 import Blog from './Blog/Blog'
 import FAQSection from './FAQ/FaqSection'
+import CTA from './CTA/CTA'
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
         <NavBar/>
         <Hero/>
         <EvenSection/>
+        <CTA/>
         <Book/>
         <Blog/>
        <FAQSection/>

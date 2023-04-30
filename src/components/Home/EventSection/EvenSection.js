@@ -6,6 +6,7 @@ import online from '../../../Assets/Image/wireless-symbol.png';
 import Link from "next/link";
 
 
+
 export default function EvenSection() {
   return (
     <section className="container min-h-screen mx-auto">
@@ -191,6 +192,7 @@ export default function EvenSection() {
           </div>
         </div>
       </div>
+      
     </section>
   );
 }
