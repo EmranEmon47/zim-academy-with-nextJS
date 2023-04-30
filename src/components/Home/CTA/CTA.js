@@ -9,7 +9,9 @@ export default function CTA() {
             <div className='flex flex-col items-start justify-center w-full gap-4'>
                 <h1 className='text-4xl font-semibold text-white'>IELTS Correct by Chat GPT</h1>
                 <p className='text-base font-normal text-white'>Mark IELTS Writing in detail and fast.</p>
+                <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
                 <button className='px-8 py-4 mt-4 text-base font-medium bg-white rounded-full'>Click the post now</button>
+                </a>
             </div>
             <div>
                 <Image src={ctaPhoto} className='w-full' alt="" />
